@@ -1,0 +1,26 @@
+{
+  "name": "wiremock-json-push",
+  "version": "1.0.0",
+  "description": "Push json to wiremock",
+  "main": "index.js",
+  "bin": {
+    "wiremock-json-push": "bin/jsonPush.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shankarpshetty/wiremock-json-push.git"
+  },
+  "author": "Shankar Shetty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shankarpshetty/wiremock-json-push/issues"
+  },
+  "homepage": "https://github.com/shankarpshetty/wiremock-json-push#readme",
+  "dependencies": {
+    "command-line-args": "^3.0.1",
+    "walk": "^2.3.9"
+  }
+}
